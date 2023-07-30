@@ -1,29 +1,4 @@
-// const { addContact, listContacts, removeContact } = require("./contacts.js");
 
-// async function main() {
-//   try {
-//     const newContact = await addContact(
-//       "John Doe",
-//       "john@example.com",
-//       "1234567890"
-//     );
-//     console.log("New contact added:", newContact);
-
-//     const contacts = await listContacts();
-//     console.log("Contacts list:", contacts);
-
-//     const contactIdToRemove = 1;
-//     const removedContact = await removeContact(contactIdToRemove);
-//     console.log("Removed contact:", removedContact);
-
-//     const updatedContacts = await listContacts();
-//     console.log("Updated contacts list:", updatedContacts);
-//   } catch (error) {
-//     console.error("Error:", error.message);
-//   }
-// }
-
-// main();
 const contacts = require("./contacts");
 const { Command } = require("commander");
 
